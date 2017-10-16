@@ -1,0 +1,125 @@
+.casa-caja{
+  width: 800px;
+  height: 600px;
+  background-color: black;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.pasto{
+  width: 1000px;
+  height: 80px ;
+  background-color: green;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 0px;
+  right: -100px;
+}
+.base{
+  background-color: pink;
+  border: 1px solid pink ;
+  width: 410px;
+  height: 200px;
+  position: absolute;
+  left: 150px;
+  margin-top: 316px;
+
+}
+.techo{
+  width: 400px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 100px solid yellow;
+  position: absolute;
+  right: 100px;
+  left: 95px;
+  top: 216px;
+}
+.ventana_1{
+  width: 75px;
+  height: 75px;
+  border: 3px solid #555;
+  background: salmon;
+  position: relative;
+  top: 385px;
+  right: -190px;
+
+
+}
+.ventana_2{
+  width: 75px;
+  height: 75px;
+  border: 3px solid #555;
+  background: salmon;
+  position: relative;
+  top:  300px;
+  left: 430px;
+}
+.puerta{
+  width: 65px;
+  height: 90px;
+  border: 3px solid gray;
+  background: white;
+  position: absolute;
+  left: 325px;
+  top: 422px;
+
+}
+.chimenea{
+  width: 20px;
+  height: 49px;
+  border: 3px solid gray;
+  background: blue;
+  position: absolute;
+  left: 480px;
+
+}
+.humo_1{
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: gray;
+  position: relative;
+  left: 480px;
+  bottom: 54px;
+}
+.humo_2{
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: gray;
+  position: relative;
+  left: 500px;
+  bottom: 150px;
+}
+.humo_3{
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: gray;
+    position: relative;
+    left: 520px;
+    bottom: 230px;
+}
+.sol{
+
+}
+.luna{
+  width: 105px;
+  height: 105px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  left: 35px;
+  bottom: 260px;
+}
